@@ -41,5 +41,10 @@ namespace Contact_Manager
         {
             return contacts;
         }
+
+        public static void ClearAll()
+        {
+            contacts.Clear();
+        }
     }
 }

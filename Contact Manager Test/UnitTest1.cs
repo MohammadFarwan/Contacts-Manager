@@ -6,8 +6,12 @@ namespace Contact_Manager_Test
 {
     public class UnitTest1
     {
+        public UnitTest1()
+        {
+            ContactManager.ClearAll();
+        }
 
-        [Fact]
+        [Fact] 
         public void AddContact_ValidContact_ReturnsUpdatedList()
         {
             // Arrange
